@@ -1,11 +1,45 @@
 /* Give your page a fun background color */
 
+body {
+  background-color: hotpink;
+}
+
 /* Make the header and footer a different color from the background */
+
+header {
+  background-color: limegreen;
+  font-family: "papyrus", fantasy;
+}
+
+footer {
+  background-color: limegreen;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
 
 /* Align the h1 containing your name in the center of the header*/
 
+h1 {
+  text-align: center;
+}
+
 /* Make your p tag a different color and italic */
 
+p {
+  color: white;
+  font-style: italic;
+}
+
 /* Put a border around your image */
+/* Squish your image to taste :) */
+
+img {
+  border: 5px solid limegreen;
+  width: 40%; /* responsive squishing */
+  height: 180px;
+}
 
 /* Change the font-family of your list */
+
+ul {
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
